@@ -43,7 +43,7 @@ Client:
     });
 
     Push.addListener('message', function(notification) {
-        // Called on every message
+        // Called when the app is in the foreground
     });
 ```
 
