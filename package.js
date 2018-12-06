@@ -9,11 +9,12 @@ Package.describe({
 Npm.depends({
   'apn' : '1.6.2', // '1.7.4', // working: 1.6.2
   'node-gcm' : '0.14.4', // previously: 0.9.6
+  'firebase-admin': '6.1.0'
 });
 
 Cordova.depends({
-  'phonegap-plugin-push': '1.9.0', // previously 1.8.4
-  'cordova-plugin-device': '1.1.3', // previously 1.1.1
+  'phonegap-plugin-push': '2.1.3',  // previously 1.9.0
+  'cordova-plugin-device': '2.0.2' // previously 1.1.3
 });
 
 Package.registerBuildPlugin({
